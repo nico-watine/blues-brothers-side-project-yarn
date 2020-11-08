@@ -1,0 +1,73 @@
+.hand-tattoo-profiles {
+	.profile-block {
+		height: 430px;
+
+		img.silhouette {
+			user-select: none;
+		}
+
+		.prose {
+			bottom: 0;
+			padding: 0 rem-calc(24) rem-calc(24);
+		}
+
+		.prose-headline {
+			font-size: rem-calc(80);
+			line-height: 1;
+			text-shadow: 0 rem-calc(1) rem-calc(2) rgba(0,0,0,.50);
+		}
+
+		.prose-subhead {
+			font-size: rem-calc(25);
+			letter-spacing: rem-calc(.5);
+			margin-top: rem-calc(-20);
+			text-shadow: 0 rem-calc(1) rem-calc(2) rgba(0,0,0,.50);
+		}
+	}
+
+	.profile-block.elwood {
+		background: linear-gradient(
+		rgba(127,173,204,.40),
+		rgba(127,173,204,.40)
+		), url('/img/elwood/elwood-hands.jpg') center/cover no-repeat;
+
+		.prose {
+			@include breakpoint(large) {
+				right: 0;
+			}
+		}
+
+		img.silhouette {
+			max-width: 200px;
+
+			@include breakpoint(420) {
+				max-width: 260px;
+			}
+
+			@include breakpoint(550) {
+				max-width: 300px;
+			}
+		}
+	}
+
+	.profile-block.jake {
+		background: linear-gradient(
+		rgba(127,173,204,.40),
+		rgba(127,173,204,.40)
+		), url('/img/jake/jake-hands.jpg') center/cover no-repeat;
+
+		.prose {
+			right: 0;
+
+			@include breakpoint(large) {
+				right: unset;
+			}
+		}
+
+		img.silhouette {
+			@include breakpoint(354) {
+				max-width: 354px;
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+.hero-splash {
+	height: 85vh;
+	min-height: 420px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-end;
+	background: #fff url('/img/index/hero/hero-1080x1080.jpg') center/cover no-repeat;
+
+	@include breakpoint(medium) {
+		background: #fff url('/img/index/hero/hero-1920x1080.jpg') right center/cover no-repeat;
+	}
+
+	@include breakpoint(large) {
+		height: 95vh;
+		padding-left: rem-calc(40);
+	}
+
+	.h1-headline {
+		text-shadow: 0 2px 4px rgba(0,0,0,.50);
+		font-size: rem-calc(80);
+		line-height: 1;
+
+		@include breakpoint(medium) {
+			line-height: .875;
+			font-size: rem-calc(160);
+		}
+
+		span {
+			font-size: rem-calc(55);
+			line-height: 1.2;
+
+			@include breakpoint(medium) {
+				font-size: rem-calc(80);
+			}
+		}
+	}
+}
