@@ -681,6 +681,84 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/scss/pages/_pages.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/pages/index/_featured-musicians.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/css/_featured-musicians.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/pages/index/_hand-tattoo-profiles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/css/_hand-tattoo-profiles.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/pages/index/_hero-splash.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/css/_hero-splash.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/pages/index/_index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/css/_index.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/pages/index/_soul-food-cafe.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/css/_soul-food-cafe.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/var/_var.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -693,12 +771,6 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
-		},
-	"/src": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/src",
-		"oF": 0
 		},
 	"/TODO": {
 		"cB": 0,

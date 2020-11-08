@@ -8667,650 +8667,6 @@ ol.list-upper-roman {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
 
-.slide-in-down.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-          transform: translateY(-100%);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-
-.slide-in-down.mui-enter.mui-enter-active {
-  -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0); }
-
-.slide-in-left.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-
-.slide-in-left.mui-enter.mui-enter-active {
-  -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0); }
-
-.slide-in-up.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-
-.slide-in-up.mui-enter.mui-enter-active {
-  -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0); }
-
-.slide-in-right.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-
-.slide-in-right.mui-enter.mui-enter-active {
-  -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0); }
-
-.slide-out-down.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-
-.slide-out-down.mui-leave.mui-leave-active {
-  -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
-          transform: translateY(100%); }
-
-.slide-out-right.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-
-.slide-out-right.mui-leave.mui-leave-active {
-  -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-          transform: translateX(100%); }
-
-.slide-out-up.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-
-.slide-out-up.mui-leave.mui-leave-active {
-  -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-          transform: translateY(-100%); }
-
-.slide-out-left.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
-
-.slide-out-left.mui-leave.mui-leave-active {
-  -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
-          transform: translateX(-100%); }
-
-.fade-in.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  transition-property: opacity; }
-
-.fade-in.mui-enter.mui-enter-active {
-  opacity: 1; }
-
-.fade-out.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  opacity: 1;
-  -webkit-transition-property: opacity;
-  transition-property: opacity; }
-
-.fade-out.mui-leave.mui-leave-active {
-  opacity: 0; }
-
-.hinge-in-from-top.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotateX(-90deg);
-          transform: perspective(2000px) rotateX(-90deg);
-  -webkit-transform-origin: top;
-      -ms-transform-origin: top;
-          transform-origin: top;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.hinge-in-from-top.mui-enter.mui-enter-active {
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  opacity: 1; }
-
-.hinge-in-from-right.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotateY(-90deg);
-          transform: perspective(2000px) rotateY(-90deg);
-  -webkit-transform-origin: right;
-      -ms-transform-origin: right;
-          transform-origin: right;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.hinge-in-from-right.mui-enter.mui-enter-active {
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  opacity: 1; }
-
-.hinge-in-from-bottom.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotateX(90deg);
-          transform: perspective(2000px) rotateX(90deg);
-  -webkit-transform-origin: bottom;
-      -ms-transform-origin: bottom;
-          transform-origin: bottom;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.hinge-in-from-bottom.mui-enter.mui-enter-active {
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  opacity: 1; }
-
-.hinge-in-from-left.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotateY(90deg);
-          transform: perspective(2000px) rotateY(90deg);
-  -webkit-transform-origin: left;
-      -ms-transform-origin: left;
-          transform-origin: left;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.hinge-in-from-left.mui-enter.mui-enter-active {
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  opacity: 1; }
-
-.hinge-in-from-middle-x.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotateX(-90deg);
-          transform: perspective(2000px) rotateX(-90deg);
-  -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.hinge-in-from-middle-x.mui-enter.mui-enter-active {
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  opacity: 1; }
-
-.hinge-in-from-middle-y.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotateY(-90deg);
-          transform: perspective(2000px) rotateY(-90deg);
-  -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.hinge-in-from-middle-y.mui-enter.mui-enter-active {
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  opacity: 1; }
-
-.hinge-out-from-top.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  -webkit-transform-origin: top;
-      -ms-transform-origin: top;
-          transform-origin: top;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.hinge-out-from-top.mui-leave.mui-leave-active {
-  -webkit-transform: perspective(2000px) rotateX(90deg);
-          transform: perspective(2000px) rotateX(90deg);
-  opacity: 0; }
-
-.hinge-out-from-right.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  -webkit-transform-origin: right;
-      -ms-transform-origin: right;
-          transform-origin: right;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.hinge-out-from-right.mui-leave.mui-leave-active {
-  -webkit-transform: perspective(2000px) rotateY(90deg);
-          transform: perspective(2000px) rotateY(90deg);
-  opacity: 0; }
-
-.hinge-out-from-bottom.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  -webkit-transform-origin: bottom;
-      -ms-transform-origin: bottom;
-          transform-origin: bottom;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.hinge-out-from-bottom.mui-leave.mui-leave-active {
-  -webkit-transform: perspective(2000px) rotateX(-90deg);
-          transform: perspective(2000px) rotateX(-90deg);
-  opacity: 0; }
-
-.hinge-out-from-left.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  -webkit-transform-origin: left;
-      -ms-transform-origin: left;
-          transform-origin: left;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.hinge-out-from-left.mui-leave.mui-leave-active {
-  -webkit-transform: perspective(2000px) rotateY(-90deg);
-          transform: perspective(2000px) rotateY(-90deg);
-  opacity: 0; }
-
-.hinge-out-from-middle-x.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.hinge-out-from-middle-x.mui-leave.mui-leave-active {
-  -webkit-transform: perspective(2000px) rotateX(90deg);
-          transform: perspective(2000px) rotateX(90deg);
-  opacity: 0; }
-
-.hinge-out-from-middle-y.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: perspective(2000px) rotate(0deg);
-          transform: perspective(2000px) rotate(0deg);
-  -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.hinge-out-from-middle-y.mui-leave.mui-leave-active {
-  -webkit-transform: perspective(2000px) rotateY(90deg);
-          transform: perspective(2000px) rotateY(90deg);
-  opacity: 0; }
-
-.scale-in-up.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-          transform: scale(0.5);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.scale-in-up.mui-enter.mui-enter-active {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  opacity: 1; }
-
-.scale-in-down.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.scale-in-down.mui-enter.mui-enter-active {
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  opacity: 1; }
-
-.scale-out-up.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.scale-out-up.mui-leave.mui-leave-active {
-  -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 0; }
-
-.scale-out-down.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.scale-out-down.mui-leave.mui-leave-active {
-  -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-          transform: scale(0.5);
-  opacity: 0; }
-
-.spin-in.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: rotate(-0.75turn);
-      -ms-transform: rotate(-0.75turn);
-          transform: rotate(-0.75turn);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.spin-in.mui-enter.mui-enter-active {
-  -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1; }
-
-.spin-out.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
-          transform: rotate(0);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.spin-out.mui-leave.mui-leave-active {
-  -webkit-transform: rotate(0.75turn);
-      -ms-transform: rotate(0.75turn);
-          transform: rotate(0.75turn);
-  opacity: 0; }
-
-.spin-in-ccw.mui-enter {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: rotate(0.75turn);
-      -ms-transform: rotate(0.75turn);
-          transform: rotate(0.75turn);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 0; }
-
-.spin-in-ccw.mui-enter.mui-enter-active {
-  -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1; }
-
-.spin-out-ccw.mui-leave {
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
-          transform: rotate(0);
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  opacity: 1; }
-
-.spin-out-ccw.mui-leave.mui-leave-active {
-  -webkit-transform: rotate(-0.75turn);
-      -ms-transform: rotate(-0.75turn);
-          transform: rotate(-0.75turn);
-  opacity: 0; }
-
-.slow {
-  -webkit-transition-duration: 750ms !important;
-          transition-duration: 750ms !important; }
-
-.fast {
-  -webkit-transition-duration: 250ms !important;
-          transition-duration: 250ms !important; }
-
-.linear {
-  -webkit-transition-timing-function: linear !important;
-          transition-timing-function: linear !important; }
-
-.ease {
-  -webkit-transition-timing-function: ease !important;
-          transition-timing-function: ease !important; }
-
-.ease-in {
-  -webkit-transition-timing-function: ease-in !important;
-          transition-timing-function: ease-in !important; }
-
-.ease-out {
-  -webkit-transition-timing-function: ease-out !important;
-          transition-timing-function: ease-out !important; }
-
-.ease-in-out {
-  -webkit-transition-timing-function: ease-in-out !important;
-          transition-timing-function: ease-in-out !important; }
-
-.bounce-in {
-  -webkit-transition-timing-function: cubic-bezier(0.485, 0.155, 0.24, 1.245) !important;
-          transition-timing-function: cubic-bezier(0.485, 0.155, 0.24, 1.245) !important; }
-
-.bounce-out {
-  -webkit-transition-timing-function: cubic-bezier(0.485, 0.155, 0.515, 0.845) !important;
-          transition-timing-function: cubic-bezier(0.485, 0.155, 0.515, 0.845) !important; }
-
-.bounce-in-out {
-  -webkit-transition-timing-function: cubic-bezier(0.76, -0.245, 0.24, 1.245) !important;
-          transition-timing-function: cubic-bezier(0.76, -0.245, 0.24, 1.245) !important; }
-
-.short-delay {
-  -webkit-transition-delay: 300ms !important;
-          transition-delay: 300ms !important; }
-
-.long-delay {
-  -webkit-transition-delay: 700ms !important;
-          transition-delay: 700ms !important; }
-
 .shake {
   -webkit-animation-name: shake-7;
           animation-name: shake-7; }
@@ -9956,7 +9312,7 @@ a:not(.button) {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
-.horizontal-center {
+.horizontal-center, .featured-musicians .featured-musicians-orbit .orbit-image {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -10215,3 +9571,304 @@ a:not(.button) {
 
 .min-width-25 {
   min-width: 25%; }
+
+.hero-splash {
+  height: 85vh;
+  min-height: 420px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #fff url("/img/index/hero/hero-1080x1080.jpg") center/cover no-repeat; }
+  @media print, screen and (min-width: 40em) {
+    .hero-splash {
+      background: #fff url("/img/index/hero/hero-1920x1080.jpg") right center/cover no-repeat; } }
+  @media print, screen and (min-width: 64em) {
+    .hero-splash {
+      height: 95vh;
+      padding-left: 2.5rem; } }
+  .hero-splash .h1-headline {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 5rem;
+    line-height: 1; }
+    @media print, screen and (min-width: 40em) {
+      .hero-splash .h1-headline {
+        line-height: .875;
+        font-size: 10rem; } }
+    .hero-splash .h1-headline span {
+      font-size: 3.4375rem;
+      line-height: 1.2; }
+      @media print, screen and (min-width: 40em) {
+        .hero-splash .h1-headline span {
+          font-size: 5rem; } }
+.hand-tattoo-profiles .profile-block {
+  height: 430px; }
+  .hand-tattoo-profiles .profile-block img.silhouette {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+  .hand-tattoo-profiles .profile-block .prose {
+    bottom: 0;
+    padding: 0 1.5rem 1.5rem; }
+  .hand-tattoo-profiles .profile-block .prose-headline {
+    font-size: 5rem;
+    line-height: 1;
+    text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5); }
+  .hand-tattoo-profiles .profile-block .prose-subhead {
+    font-size: 1.5625rem;
+    letter-spacing: 0.03125rem;
+    margin-top: -1.25rem;
+    text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5); }
+
+.hand-tattoo-profiles .profile-block.elwood {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 173, 204, 0.4)), to(rgba(127, 173, 204, 0.4))), url("/img/elwood/elwood-hands.jpg") center/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(127, 173, 204, 0.4), rgba(127, 173, 204, 0.4)), url("/img/elwood/elwood-hands.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(127, 173, 204, 0.4), rgba(127, 173, 204, 0.4)), url("/img/elwood/elwood-hands.jpg") center/cover no-repeat; }
+  @media print, screen and (min-width: 64em) {
+    .hand-tattoo-profiles .profile-block.elwood .prose {
+      right: 0; } }
+  .hand-tattoo-profiles .profile-block.elwood img.silhouette {
+    max-width: 200px; }
+    @media screen and (min-width: 26.25em) {
+      .hand-tattoo-profiles .profile-block.elwood img.silhouette {
+        max-width: 260px; } }
+    @media screen and (min-width: 34.375em) {
+      .hand-tattoo-profiles .profile-block.elwood img.silhouette {
+        max-width: 300px; } }
+.hand-tattoo-profiles .profile-block.jake {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 173, 204, 0.4)), to(rgba(127, 173, 204, 0.4))), url("/img/jake/jake-hands.jpg") center/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(127, 173, 204, 0.4), rgba(127, 173, 204, 0.4)), url("/img/jake/jake-hands.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(127, 173, 204, 0.4), rgba(127, 173, 204, 0.4)), url("/img/jake/jake-hands.jpg") center/cover no-repeat; }
+  .hand-tattoo-profiles .profile-block.jake .prose {
+    right: 0; }
+    @media print, screen and (min-width: 64em) {
+      .hand-tattoo-profiles .profile-block.jake .prose {
+        right: unset; } }
+  @media screen and (min-width: 22.125em) {
+    .hand-tattoo-profiles .profile-block.jake img.silhouette {
+      max-width: 354px; } }
+@media print, screen and (min-width: 64em) {
+  .featured-musicians {
+    height: 45rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.featured-musicians .slides {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 280px; }
+  @media screen and (min-width: 30em) {
+    .featured-musicians .slides {
+      height: 380px; } }
+  @media screen and (min-width: 35em) {
+    .featured-musicians .slides {
+      height: 400px; } }
+  @media print, screen and (min-width: 40em) {
+    .featured-musicians .slides {
+      height: 540px; } }
+  @media print, screen and (min-width: 64em) {
+    .featured-musicians .slides {
+      height: auto; } }
+.featured-musicians .featured-musicians-orbit .orbit-slide {
+  height: 100%; }
+
+.featured-musicians .featured-musicians-orbit .orbit-image {
+  height: 100%;
+  max-width: none;
+  width: auto; }
+  @media screen and (min-width: 60em) {
+    .featured-musicians .featured-musicians-orbit .orbit-image {
+      height: 580px; } }
+  @media print, screen and (min-width: 64em) {
+    .featured-musicians .featured-musicians-orbit .orbit-image {
+      height: 100%; } }
+.featured-musicians .featured-musicians-orbit .orbit-caption {
+  background-color: transparent;
+  top: 0; }
+  @media screen and (min-width: 35em) {
+    .featured-musicians .featured-musicians-orbit .orbit-caption {
+      top: unset; } }
+  @media print, screen and (min-width: 64em) {
+    .featured-musicians .featured-musicians-orbit .orbit-caption {
+      padding: 0 2.5rem 0.625rem; } }
+  .featured-musicians .featured-musicians-orbit .orbit-caption .musician-name {
+    font-size: 1.25rem;
+    letter-spacing: 0.078125rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: block;
+    line-height: 1.2; }
+    @media screen and (min-width: 30em) {
+      .featured-musicians .featured-musicians-orbit .orbit-caption .musician-name {
+        font-size: 2rem; } }
+  .featured-musicians .featured-musicians-orbit .orbit-caption .character-scene {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media screen and (min-width: 30em) {
+      .featured-musicians .featured-musicians-orbit .orbit-caption .character-scene {
+        font-size: 1.25rem; } }
+.featured-musicians .featured-musicians-orbit .orbit-bullets {
+  right: 16px;
+  bottom: 10px; }
+  .featured-musicians .featured-musicians-orbit .orbit-bullets button {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0 0.25rem;
+    background-color: #fff;
+    border: 0.1875rem solid #fff; }
+  .featured-musicians .featured-musicians-orbit .orbit-bullets button.is-active {
+    background-color: #134dab; }
+
+.featured-musicians .featured-musicians-orbit .navigation-arrows-container {
+  z-index: 10;
+  position: absolute;
+  bottom: 46px;
+  right: 16px; }
+
+.featured-musicians .featured-musicians-orbit .navigation-arrow {
+  color: #134dab;
+  background-color: #fff;
+  border-radius: 50%;
+  position: initial;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  margin: 0 0 0 8px;
+  padding: 0.75rem; }
+
+.featured-musicians .text-block-headline {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #142a83; }
+  @media print, screen and (min-width: 64em) {
+    .featured-musicians .text-block-headline {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+  .featured-musicians .text-block-headline .headline {
+    font-size: 5rem;
+    line-height: 1; }
+
+.featured-musicians .text-block-paragraph {
+  background: #f1f1f1;
+  padding: 1.5rem 1rem; }
+  @media screen and (min-width: 35em) {
+    .featured-musicians .text-block-paragraph {
+      padding: 1.5rem; } }
+  .featured-musicians .text-block-paragraph .paragraph {
+    color: #142a83;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    max-width: 25rem;
+    margin: 0 auto; }
+    @media screen and (min-width: 43.75em) {
+      .featured-musicians .text-block-paragraph .paragraph {
+        max-width: 33.75rem;
+        font-size: 1.5rem; } }
+    @media screen and (min-width: 60em) {
+      .featured-musicians .text-block-paragraph .paragraph {
+        max-width: 37.5rem; } }
+@media print, screen and (min-width: 64em) {
+  .featured-musicians .text-block-wrapper {
+    width: 22.875rem;
+    max-width: none; } }
+
+@media screen and (min-width: 75em) {
+  .featured-musicians .text-block-wrapper {
+    width: 28.75rem; } }
+
+@media screen and (min-width: 90em) {
+  .featured-musicians .text-block-wrapper {
+    width: 33.5rem; } }
+
+@media screen and (min-width: 113.75em) {
+  .featured-musicians .text-block-wrapper {
+    width: 40rem; } }
+
+.featured-musicians .section-title-wrapper.hide-for-large {
+  padding: 2.5rem 1rem;
+  background: #142a83; }
+  @media screen and (min-width: 43.75em) {
+    .featured-musicians .section-title-wrapper.hide-for-large {
+      padding: 2.5rem; } }
+  .featured-musicians .section-title-wrapper.hide-for-large .section-title {
+    font-size: 3.75rem;
+    line-height: 1;
+    text-align: left !important; }
+    .featured-musicians .section-title-wrapper.hide-for-large .section-title::before, .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+      display: table;
+      content: ' ';
+      -webkit-flex-basis: 0;
+          -ms-flex-preferred-size: 0;
+              flex-basis: 0;
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1; }
+    .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+      clear: both; }
+    .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+      position: relative !important;
+      width: 280px;
+      border-bottom: 0.25rem solid #fff;
+      margin: 0 auto 0;
+      margin-left: 0 !important; }
+    @media screen and (min-width: 35em) {
+      .featured-musicians .section-title-wrapper.hide-for-large .section-title {
+        font-size: 4.25rem; } }
+    @media print, screen and (min-width: 40em) {
+      .featured-musicians .section-title-wrapper.hide-for-large .section-title {
+        font-size: 5rem;
+        text-align: left !important; }
+        .featured-musicians .section-title-wrapper.hide-for-large .section-title::before, .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+          display: table;
+          content: ' ';
+          -webkit-flex-basis: 0;
+              -ms-flex-preferred-size: 0;
+                  flex-basis: 0;
+          -webkit-box-ordinal-group: 2;
+          -webkit-order: 1;
+              -ms-flex-order: 1;
+                  order: 1; }
+        .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+          clear: both; }
+        .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+          position: relative !important;
+          width: 320px;
+          border-bottom: 0.25rem solid #fff;
+          margin: 0 auto 0;
+          margin-left: 0 !important; } }
+.soul-food-cafe-section .row {
+  background: #595959 url("/img/soul-food-cafe/img-1.jpg") center/cover no-repeat;
+  background-blend-mode: multiply; }
