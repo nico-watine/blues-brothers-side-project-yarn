@@ -106,6 +106,38 @@
 		"oAP": "/build/dist",
 		"oF": 0
 		},
+	"/fonts/machine/machine.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/machine/machine.otf",
+		"oF": 0
+		},
+	"/fonts/machine/machine.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/machine/machine.ttf",
+		"oF": 0
+		},
+	"/fonts/machine/machine.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/machine/machine.woff",
+		"oF": 0
+		},
+	"/fonts/machine/machine.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/machine/machine.woff2",
+		"oF": 0
+		},
 	"/gulpfile.babel.js": {
 		"bF": 0,
 		"ft": 64,
@@ -771,6 +803,12 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
+		},
+	"/src": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/src",
+		"oF": 0
 		},
 	"/TODO": {
 		"cB": 0,
