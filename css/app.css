@@ -5,6 +5,7 @@
  * https://get.foundation
  * Licensed under MIT Open Source
  */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
 @media print, screen and (min-width: 40em) {
   .reveal.large, .reveal.small, .reveal.tiny, .reveal {
     right: auto;
@@ -177,7 +178,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -578,7 +579,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -9421,8 +9422,20 @@ ol.list-upper-roman {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
 
+@font-face {
+  font-family: 'Machine';
+  src: url("/fonts/machine/machine.woff2") format("woff2"), url("/fonts/machine/machine.woff") format("woff"), url("/fonts/machine/machine.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400; }
+
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important; }
+
+.ff-machine {
+  font-family: 'Machine', serif; }
+
+.ff-lato {
+  font-family: 'Lato', sans-serif; }
 
 .font-weight-100,
 .font-weight-ultralight {
@@ -9956,7 +9969,7 @@ a:not(.button) {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
-.horizontal-center {
+.horizontal-center, .featured-musicians .featured-musicians-orbit .orbit-image {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -10215,3 +10228,304 @@ a:not(.button) {
 
 .min-width-25 {
   min-width: 25%; }
+
+.hero-splash {
+  height: 85vh;
+  min-height: 420px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #fff url("/img/index/hero/hero-1080x1080.jpg") center/cover no-repeat; }
+  @media print, screen and (min-width: 40em) {
+    .hero-splash {
+      background: #fff url("/img/index/hero/hero-1920x1080.jpg") right center/cover no-repeat; } }
+  @media print, screen and (min-width: 64em) {
+    .hero-splash {
+      height: 95vh;
+      padding-left: 2.5rem; } }
+  .hero-splash .h1-headline {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 5rem;
+    line-height: 1; }
+    @media print, screen and (min-width: 40em) {
+      .hero-splash .h1-headline {
+        line-height: .875;
+        font-size: 10rem; } }
+    .hero-splash .h1-headline span {
+      font-size: 3.4375rem;
+      line-height: 1.2; }
+      @media print, screen and (min-width: 40em) {
+        .hero-splash .h1-headline span {
+          font-size: 5rem; } }
+.hand-tattoo-profiles .profile-block {
+  height: 430px; }
+  .hand-tattoo-profiles .profile-block img.silhouette {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+  .hand-tattoo-profiles .profile-block .prose {
+    bottom: 0;
+    padding: 0 1.5rem 1.5rem; }
+  .hand-tattoo-profiles .profile-block .prose-headline {
+    font-size: 5rem;
+    line-height: 1;
+    text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5); }
+  .hand-tattoo-profiles .profile-block .prose-subhead {
+    font-size: 1.5625rem;
+    letter-spacing: 0.03125rem;
+    margin-top: -1.25rem;
+    text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5); }
+
+.hand-tattoo-profiles .profile-block.elwood {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 173, 204, 0.4)), to(rgba(127, 173, 204, 0.4))), url("/img/elwood/elwood-hands.jpg") center/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(127, 173, 204, 0.4), rgba(127, 173, 204, 0.4)), url("/img/elwood/elwood-hands.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(127, 173, 204, 0.4), rgba(127, 173, 204, 0.4)), url("/img/elwood/elwood-hands.jpg") center/cover no-repeat; }
+  @media print, screen and (min-width: 64em) {
+    .hand-tattoo-profiles .profile-block.elwood .prose {
+      right: 0; } }
+  .hand-tattoo-profiles .profile-block.elwood img.silhouette {
+    max-width: 200px; }
+    @media screen and (min-width: 26.25em) {
+      .hand-tattoo-profiles .profile-block.elwood img.silhouette {
+        max-width: 260px; } }
+    @media screen and (min-width: 34.375em) {
+      .hand-tattoo-profiles .profile-block.elwood img.silhouette {
+        max-width: 300px; } }
+.hand-tattoo-profiles .profile-block.jake {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 173, 204, 0.4)), to(rgba(127, 173, 204, 0.4))), url("/img/jake/jake-hands.jpg") center/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(127, 173, 204, 0.4), rgba(127, 173, 204, 0.4)), url("/img/jake/jake-hands.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(127, 173, 204, 0.4), rgba(127, 173, 204, 0.4)), url("/img/jake/jake-hands.jpg") center/cover no-repeat; }
+  .hand-tattoo-profiles .profile-block.jake .prose {
+    right: 0; }
+    @media print, screen and (min-width: 64em) {
+      .hand-tattoo-profiles .profile-block.jake .prose {
+        right: unset; } }
+  @media screen and (min-width: 22.125em) {
+    .hand-tattoo-profiles .profile-block.jake img.silhouette {
+      max-width: 354px; } }
+@media print, screen and (min-width: 64em) {
+  .featured-musicians {
+    height: 45rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.featured-musicians .slides {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 280px; }
+  @media screen and (min-width: 30em) {
+    .featured-musicians .slides {
+      height: 380px; } }
+  @media screen and (min-width: 35em) {
+    .featured-musicians .slides {
+      height: 400px; } }
+  @media print, screen and (min-width: 40em) {
+    .featured-musicians .slides {
+      height: 540px; } }
+  @media print, screen and (min-width: 64em) {
+    .featured-musicians .slides {
+      height: auto; } }
+.featured-musicians .featured-musicians-orbit .orbit-slide {
+  height: 100%; }
+
+.featured-musicians .featured-musicians-orbit .orbit-image {
+  height: 100%;
+  max-width: none;
+  width: auto; }
+  @media screen and (min-width: 60em) {
+    .featured-musicians .featured-musicians-orbit .orbit-image {
+      height: 580px; } }
+  @media print, screen and (min-width: 64em) {
+    .featured-musicians .featured-musicians-orbit .orbit-image {
+      height: 100%; } }
+.featured-musicians .featured-musicians-orbit .orbit-caption {
+  background-color: transparent;
+  top: 0; }
+  @media screen and (min-width: 35em) {
+    .featured-musicians .featured-musicians-orbit .orbit-caption {
+      top: unset; } }
+  @media print, screen and (min-width: 64em) {
+    .featured-musicians .featured-musicians-orbit .orbit-caption {
+      padding: 0 2.5rem 0.625rem; } }
+  .featured-musicians .featured-musicians-orbit .orbit-caption .musician-name {
+    font-size: 1.25rem;
+    letter-spacing: 0.078125rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: block;
+    line-height: 1.2; }
+    @media screen and (min-width: 30em) {
+      .featured-musicians .featured-musicians-orbit .orbit-caption .musician-name {
+        font-size: 2rem; } }
+  .featured-musicians .featured-musicians-orbit .orbit-caption .character-scene {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media screen and (min-width: 30em) {
+      .featured-musicians .featured-musicians-orbit .orbit-caption .character-scene {
+        font-size: 1.25rem; } }
+.featured-musicians .featured-musicians-orbit .orbit-bullets {
+  right: 16px;
+  bottom: 10px; }
+  .featured-musicians .featured-musicians-orbit .orbit-bullets button {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0 0.25rem;
+    background-color: #fff;
+    border: 0.1875rem solid #fff; }
+  .featured-musicians .featured-musicians-orbit .orbit-bullets button.is-active {
+    background-color: #134dab; }
+
+.featured-musicians .featured-musicians-orbit .navigation-arrows-container {
+  z-index: 10;
+  position: absolute;
+  bottom: 46px;
+  right: 16px; }
+
+.featured-musicians .featured-musicians-orbit .navigation-arrow {
+  color: #134dab;
+  background-color: #fff;
+  border-radius: 50%;
+  position: initial;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  margin: 0 0 0 8px;
+  padding: 0.75rem; }
+
+.featured-musicians .text-block-headline {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #142a83; }
+  @media print, screen and (min-width: 64em) {
+    .featured-musicians .text-block-headline {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+  .featured-musicians .text-block-headline .headline {
+    font-size: 5rem;
+    line-height: 1; }
+
+.featured-musicians .text-block-paragraph {
+  background: #f1f1f1;
+  padding: 1.5rem 1rem; }
+  @media screen and (min-width: 35em) {
+    .featured-musicians .text-block-paragraph {
+      padding: 1.5rem; } }
+  .featured-musicians .text-block-paragraph .paragraph {
+    color: #142a83;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    max-width: 25rem;
+    margin: 0 auto; }
+    @media screen and (min-width: 43.75em) {
+      .featured-musicians .text-block-paragraph .paragraph {
+        max-width: 33.75rem;
+        font-size: 1.5rem; } }
+    @media screen and (min-width: 60em) {
+      .featured-musicians .text-block-paragraph .paragraph {
+        max-width: 37.5rem; } }
+@media print, screen and (min-width: 64em) {
+  .featured-musicians .text-block-wrapper {
+    width: 22.875rem;
+    max-width: none; } }
+
+@media screen and (min-width: 75em) {
+  .featured-musicians .text-block-wrapper {
+    width: 28.75rem; } }
+
+@media screen and (min-width: 90em) {
+  .featured-musicians .text-block-wrapper {
+    width: 33.5rem; } }
+
+@media screen and (min-width: 113.75em) {
+  .featured-musicians .text-block-wrapper {
+    width: 40rem; } }
+
+.featured-musicians .section-title-wrapper.hide-for-large {
+  padding: 2.5rem 1rem;
+  background: #142a83; }
+  @media screen and (min-width: 43.75em) {
+    .featured-musicians .section-title-wrapper.hide-for-large {
+      padding: 2.5rem; } }
+  .featured-musicians .section-title-wrapper.hide-for-large .section-title {
+    font-size: 3.75rem;
+    line-height: 1;
+    text-align: left !important; }
+    .featured-musicians .section-title-wrapper.hide-for-large .section-title::before, .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+      display: table;
+      content: ' ';
+      -webkit-flex-basis: 0;
+          -ms-flex-preferred-size: 0;
+              flex-basis: 0;
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1; }
+    .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+      clear: both; }
+    .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+      position: relative !important;
+      width: 280px;
+      border-bottom: 0.25rem solid #fff;
+      margin: 0 auto 0;
+      margin-left: 0 !important; }
+    @media screen and (min-width: 35em) {
+      .featured-musicians .section-title-wrapper.hide-for-large .section-title {
+        font-size: 4.25rem; } }
+    @media print, screen and (min-width: 40em) {
+      .featured-musicians .section-title-wrapper.hide-for-large .section-title {
+        font-size: 5rem;
+        text-align: left !important; }
+        .featured-musicians .section-title-wrapper.hide-for-large .section-title::before, .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+          display: table;
+          content: ' ';
+          -webkit-flex-basis: 0;
+              -ms-flex-preferred-size: 0;
+                  flex-basis: 0;
+          -webkit-box-ordinal-group: 2;
+          -webkit-order: 1;
+              -ms-flex-order: 1;
+                  order: 1; }
+        .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+          clear: both; }
+        .featured-musicians .section-title-wrapper.hide-for-large .section-title::after {
+          position: relative !important;
+          width: 320px;
+          border-bottom: 0.25rem solid #fff;
+          margin: 0 auto 0;
+          margin-left: 0 !important; } }
+.soul-food-cafe-section .row {
+  background: #595959 url("/img/soul-food-cafe/img-1.jpg") center/cover no-repeat;
+  background-blend-mode: multiply; }

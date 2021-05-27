@@ -1,0 +1,213 @@
+.featured-musicians {
+	@include breakpoint(large) {
+		height: rem-calc(720);
+		display: flex;
+	}
+
+	.slides {
+		flex-grow: 1;
+		height: 280px;
+
+		@include breakpoint(480) {
+			height: 380px;
+		}
+
+		@include breakpoint(560) {
+			height: 400px;
+		}
+
+		@include breakpoint(medium) {
+			height: 540px;
+		}
+
+		@include breakpoint(large) {
+			height: auto;
+		}
+	}
+
+	.featured-musicians-orbit {
+		.orbit-slide {
+			height: 100%;
+		}
+
+		.orbit-image {
+			height: 100%;
+			max-width: none;
+			width: auto;
+
+			@extend .horizontal-center;
+
+			@include breakpoint(960) {
+				height: 580px;
+			}
+
+			@include breakpoint(large) {
+				height: 100%;
+			}
+		}
+
+		.orbit-caption {
+			background-color: transparent;
+			top: 0;
+
+			@include breakpoint(560) {
+				top: unset;
+			}
+
+			@include breakpoint(large) {
+				padding: rem-calc(0 40 10);
+			}
+
+			.musician-name {
+				font-size: rem-calc(20);
+				letter-spacing: rem-calc(1.25);
+				text-transform: uppercase;
+				font-weight: 900;
+				text-shadow: 0 2px 4px rgba(0,0,0,.50);
+				display: block;
+				line-height: 1.2;
+
+				@include breakpoint(480) {
+					font-size: rem-calc(32);
+				}
+			}
+
+			.character-scene {
+				font-weight: 700;
+				font-size: rem-calc(16);
+				color: #fff;
+				text-transform: uppercase;
+				line-height: 1.2;
+				text-shadow: 0 2px 4px rgba(0,0,0,.50);
+
+				@include breakpoint(480) {
+					font-size: rem-calc(20);
+				}
+			}
+		}
+
+		.orbit-bullets {
+			right: 16px;
+			bottom: 10px;
+
+			button {
+				width: rem-calc(20);
+				height: rem-calc(20);
+				margin: 0 rem-calc(4);
+				background-color: #fff;
+				border: rem-calc(3) solid #fff;
+			}
+
+			button.is-active {
+				background-color: #134dab;
+			}
+		}
+
+		.navigation-arrows-container {
+			z-index: 10;
+			position: absolute;
+			bottom: 46px;
+			right: 16px;
+		}
+
+		.navigation-arrow {
+			color: #134dab;
+			background-color: #fff;
+			border-radius: 50%;
+			position: initial;
+			transform: none;
+			margin: 0 0 0 8px;
+			padding: rem-calc(12);
+		}
+	}
+
+	.text-block-wrapper {
+		//
+	}
+
+	.text-block-headline {
+		justify-content: flex-end;
+		flex-direction: column;
+		background: #142a83;
+
+		@include breakpoint(large) {
+			display: flex;
+		}
+
+		.headline {
+			font-size: rem-calc(80);
+			line-height: 1;
+		}
+	}
+
+	.text-block-paragraph {
+		background: #f1f1f1;
+		padding: rem-calc(24 16);
+
+		@include breakpoint(560) {
+			padding: rem-calc(24);
+		}
+
+		.paragraph {
+			color: #142a83;
+			font-size: rem-calc(18);
+			line-height: 1.4;
+			max-width: rem-calc(400);
+			margin: 0 auto;
+
+			@include breakpoint(700) {
+				max-width: rem-calc(540);
+				font-size: rem-calc(24);
+			}
+
+			@include breakpoint(960) {
+				max-width: rem-calc(600);
+			}
+		}
+	}
+
+	.text-block-wrapper {
+		@include breakpoint(large) {
+			width: rem-calc(366);
+			max-width: none;
+		}
+
+		@include breakpoint(xlarge) {
+			width: rem-calc(460);
+		}
+
+		@include breakpoint(xxlarge) {
+			width: rem-calc(536);
+		}
+
+		@include breakpoint(1820) {
+			width: rem-calc(640);
+		}
+	}
+}
+
+.featured-musicians {
+	.section-title-wrapper.hide-for-large {
+		padding: rem-calc(40) rem-calc(16);
+		background: #142a83;
+
+		@include breakpoint(700) {
+			padding: rem-calc(40);
+		}
+
+		.section-title {
+			font-size: rem-calc(60);
+			line-height: 1;
+			@include separator(left, .25rem, 280px, #fff, 0);
+
+			@include breakpoint(560) {
+				font-size: rem-calc(68);
+			}
+
+			@include breakpoint(medium) {
+				font-size: rem-calc(80);
+				@include separator(left, .25rem, 320px, #fff, 0);
+			}
+		}
+	}
+}
