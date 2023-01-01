@@ -1,0 +1,19 @@
+{
+  "name": "blues-brothers-side-project-yarn",
+  "author": [
+    "Nico Watine <nico@studioncreations.com> (https://nicowatine.me/)"
+  ],
+  "description": "Repo for a locally-developed site about The Blues Brothers. Fun side project. This version build with Yarn",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "foundation-sites": "6.6.3",
+    "jquery": "3.5.1",
+    "motion-ui": "^2.0.2",
+    "what-input": ">=4.1.0"
+  }
+}
