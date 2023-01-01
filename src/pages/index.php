@@ -80,7 +80,7 @@ body-class: index
 			<h2 class="headline text-white ff-machine m-0">Featured Musicians</h2>
 		</div>
 		<div class="text-block-paragraph height-50">
-			<p class="paragraph font-weight-bold">At Aykroyd's demand, soul and R&amp;B stars James Brown, Cab Calloway, Ray Charles and Aretha Franklin were cast in speaking parts to support musical numbers built around them.</p>
+			<p class="paragraph font-weight-bold">At Aykroyd’s demand, soul and R&amp;B stars James Brown, Cab Calloway, Ray Charles and Aretha Franklin were cast in speaking parts to support musical numbers built around them.</p>
 		</div>
 	</div>
 </section>
